@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+    <div id="ip">
+        REG NO:<br>
+        <input type="number" id="input1"><br>
+        NAME:<br>
+        <input type="text" id="input2" ><br>
+        DEPT:<br>
+        <input type="text" id="input3" ><br>
+        <button class="but" onclick="add()">Save</button>
+    </div>
+    <div id="op">
+        <table border="10px" id="list-table">
+                <tr>
+                    <th>REG NO</th>
+                    <th>NAME</th>
+                    <th>DEPT</th>
+                    <th>Delete or Update</th>
+                </tr>
+                
+        </table>
+    </div>
+</body>
+<script src="crud.js"></script>
+</html>
